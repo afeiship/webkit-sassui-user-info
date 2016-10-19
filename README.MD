@@ -5,3 +5,4 @@
 
 ## resources:
 + https://github.com/afeiship/generator-webkit-sassui
++ http://fuwu.wap.sogou.com/f/shangmen?fr=wapindex
