@@ -1,0 +1,32 @@
+{
+  "name": "webkit-sassui-user-info",
+  "description": "Webkit sass ui module for user info.",
+  "main": [
+    "dist/webkit-sassui-user-info.css",
+    "dist/webkit-sassui-user-info.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "user-info"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "webkit-sass-mixins": "afeiship/webkit-sass-mixins"
+  }
+}

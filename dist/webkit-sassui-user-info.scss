@@ -1,0 +1,31 @@
+/*webkit-sassui-user-info Start*/
+@import "../bower_components/webkit-sass-mixins/dist/webkit-sass-mixins.scss";
+@mixin webkit-sassui-user-info() {
+  //Your mixin code goes here.
+  @include display-box;
+  background: #fff;
+
+  > .left {
+    img {
+      vertical-align: top;
+    }
+  }
+
+  > .right {
+    @include display-box;
+    @include box-pack(justify);
+    @include box-orient(vertical);
+    @include box-flex(1);
+
+    > .hd {
+      color: #333;
+      font-size: 14px;
+    }
+
+    > .ft {
+      color: #999;
+      font-size: 12px;
+    }
+  }
+}
+/*webkit-sassui-user-info End*/

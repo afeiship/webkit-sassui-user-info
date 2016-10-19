@@ -1,0 +1,14 @@
+@import "../dist/webkit-sassui-user-info.scss";
+*{margin:0;padding:0;-webkit-margin-before:0;-webkit-margin-after:0;}
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: #eee;
+}
+.test-webkit-sassui-user-info{
+  border:1px solid #eee;
+  padding:10px;
+  @include webkit-sassui-user-info();
+  .left{
+    margin-right: 10px;
+  }
+}
